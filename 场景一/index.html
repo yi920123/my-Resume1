@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>场景一</title>
+    <link rel="stylesheet" href="index.css"/>
+    <meta name ="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <link type="text/css" rel="stylesheet" href="../animate.css"/>
+</head>
+<body>
+    <div id="main">
+        <audio src="music/罗凯楠%20-%20咱们屯里的人.mp3" id="yy"></audio>
+        <ul class="slide">
+            <li class="zIndex" >
+                <div class="a8">
+                <img src="images/03.png" alt="" id="zt" class=" animated slideInDown"/>
+                <p>或许我不是最好的,<br/>但我肯定是那个最努力的</p></div>
+            </li>
+            <li >
+                <div class="a1">
+                    <p>姓名:曹易贤</p>
+                    <p>年龄:24</p>
+                    <p>学历:大专</p>
+                    <p>求职:web前端开发工程师</p>
+                    <p>联系方式:13383172722</p>
+                    <p>联系邮箱:383867824@qq.com</p>
+                </div>
+            </li>
+            <li >
+                <div class="a3">
+                    <h2 class="animated bounce infinite">IT技能</h2>
+                    <p>1.熟悉了解h5,c3等相关技术</p>
+                    <p>2.熟练掌握html、div+css，能够手写符合w3c标准的页面代码。</p>
+                    <p>3.熟练掌握javaScript，对面向对象、闭包、this关键字、原型、原型链等有深刻的理解。</p>
+                    <p>4.熟悉jQuery、web开发流程，了解php、mysql相关技术。</p>
+                </div>
+            </li>
+            <li>
+                <div class="a4">
+                    <p>①成功没有随随便便</p>
+                    <p>②我只相信自己的双手</p>
+                    <p>③只要肯努力</p>
+                    <p>④结局定会不一样</p>
+                </div>
+            </li>
+            <li>
+                <div class="a5">
+                <p>自我评价</p>
+                <p>1.对技术有强烈的好奇心和浓厚的兴趣，上进心强、勤于学习能不断提高自身的能力与综合素质。</p>
+                <p>3.为人谦和、责任心强、能够很快的融入到团队中去。能够根据任务对工作进行规划，有条理的完成工作。</p>
+                <p>2.抗压能力强</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+<script type="text/javascript">
+    window.setTimeout(function () {
+        var oList = document.querySelectorAll(".a8>p");
+        for (var i = 0; i < oList.length; i++) {
+            oList[i].className = "move";
+        }
+    }, 200);
+</script>
+</html>
+<script src="index.js"></script>
