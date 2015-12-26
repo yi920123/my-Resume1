@@ -27,7 +27,7 @@ html,body{
     left:0;
 }
 .slide .a8 img{
-    z-index: 1111;
+    /*z-index: 1111;*/
     width: 45%;
     height: 30%;
     border-radius: 50%;
@@ -187,6 +187,7 @@ margin-top: 3%;
     bottom:20%;
     font-size: 25px;
     color:#000;
+    letter-spacing: 2px;
 }
 
 #a3{
